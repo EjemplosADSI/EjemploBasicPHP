@@ -30,8 +30,8 @@ if ($nombre == "Diego"){
 }
 ?>
 
-<?php if ($nombre == "Diego"){ ?>
+<?php if ($nombre == "Diego"): ?>
     Esto se mostrará si la expresión es verdadera.
-<?php }else{ ?>
+<?php else: ?>
     En caso contrario se mostrará esto.
-<?php } ?>
+<?php endif; ?>
